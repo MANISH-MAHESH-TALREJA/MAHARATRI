@@ -110,7 +110,7 @@
   Countdown
   -------------------------------------------------------------------------------*/
   function makeTimer() {
-    var endTime = new Date("01 January 2022 00:00:00 GMT+05:30");
+    var endTime = new Date("01 January 2023 00:00:00 GMT+05:30");
     endTime = (Date.parse(endTime) / 1000);
     var now = new Date();
     now = (Date.parse(now) / 1000);
